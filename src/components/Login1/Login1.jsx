@@ -1,12 +1,14 @@
 import css from './Login1.module.css'
 import Input from "../../components/Input/Input.jsx";
+import Titulo from "../Titulo/Titulo.jsx";
+import Botao from "../Botao/Botao.jsx";
 
 export default function Login1() {
     return (
         <div className="container-fluid">
             <div className="row">
                 <div className={"col-7 " + css.padding}>
-                    <h4 className={"mb-4"}>TITULO</h4>
+                    <Titulo titulo={'Bem vindo de volta!'} cor={'azul-claro'}/>
                     <div className={"d-flex flex-column align-items-start justify-content-center gap-5"}>
                         <form className={"d-flex flex-column align-items-center justify-content-center gap-4"}>
                             <div className={"d-flex flex-column align-items-start justify-content-center gap-3 " + css.width}>
@@ -30,7 +32,7 @@ export default function Login1() {
                             </div>
 
                             <div className={"d-flex flex-column align-items-center justify-content-center gap-5"}>
-                                <button type="submit" className="">AAAAAAAAAA</button>
+                                <Botao cor={'amarelo'} texto={''}/>
 
                                 <div className={"d-flex flex-column align-items-center gap-1"}>
                                     <p className={css.p}>Ainda não está no Doar+?</p>
