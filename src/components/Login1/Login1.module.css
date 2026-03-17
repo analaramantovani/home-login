@@ -1,0 +1,22 @@
+.padding {
+    padding: 3rem 0 3rem 4rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #9A9A9A;
+    font-size: 1vw;
+}
+
+.width {
+    width: 100%;
+}
+
+.p {
+    margin: 0 !important;
+}
+
+.imagem {
+    max-width: 100%;
+    margin-right: -0.75rem !important;
+}
