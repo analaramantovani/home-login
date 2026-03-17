@@ -31,12 +31,12 @@ export default function Login1() {
                                 </div>
                             </div>
 
-                            <div className={"d-flex flex-column align-items-center justify-content-center gap-5"}>
-                                <Botao cor={'amarelo'} texto={''}/>
+                            <div className={"d-flex flex-column align-items-center justify-content-center "}>
+                                <Botao cor={'amarelo'} texto={'Login'} />
 
                                 <div className={"d-flex flex-column align-items-center gap-1"}>
                                     <p className={css.p}>Ainda não está no Doar+?</p>
-                                    <button type="submit" className="">AAAAAAAAAA</button>
+                                    <Botao cor={'vazadoamarelo'} texto={'Cadastre-se'} />
                                 </div>
                             </div>
 

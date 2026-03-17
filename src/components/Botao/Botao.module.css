@@ -20,3 +20,24 @@
     font-family: 'Inter', Arial;
     font-weight: 900;
 }
+
+.vazadoamarelo{
+    background-color: #ffffff;
+    border: none;
+    color: #F69B2F;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.rosa{
+    background-color: #F65682;
+    border: none;
+    border-radius: 2rem;
+    width: 15rem;
+    padding: 0.5rem;
+    color: white;
+    font-family: 'Inter', Arial;
+    font-weight: 800;
+    margin: 2rem;
+
+}

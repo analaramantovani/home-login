@@ -24,7 +24,7 @@ export default function Header() {
 
 
                 <div className={`d-none d-lg-flex ${css.divbotoes}`}>
-                    <button className={css.cadastro}>Cadastro</button>
+                    <Link to={"/cadastroOng"}><button className={css.cadastro}>Cadastro</button></Link>
                     <Link to={"/login"}><button className={css.login}>Login</button></Link>
                 </div>
 
@@ -62,7 +62,7 @@ export default function Header() {
                             <li><a href="/" className={css.linkMobile}>Junte-se a nós!</a></li>
                             <li><a href="/" className={css.linkMobile}>ONGs e Projetos</a></li>
 
-                            <li className="mt-4"><a href="/" className={css.linkMobile}>Cadastro</a></li>
+                            <li className="mt-4"><Link to={"/cadastroOng"} className={css.linkMobile}>Cadastro</Link></li>
                             <li><Link to={"/login"} className={css.linkMobile}>Login</Link></li>
                         </ul>
                     </div>

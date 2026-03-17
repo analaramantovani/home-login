@@ -1,4 +1,21 @@
+
 .azul-claro {
     color: #167CBF;
     font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.laranja{
+    color: #F69B2F;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.rosa{
+    color: #F77CA8;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 4rem;
 }
