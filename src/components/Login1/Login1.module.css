@@ -23,3 +23,12 @@
     height: 40rem;
     margin-right: -0.75rem !important;
 }
+
+@media (max-width: 321px) {
+    .imagem {
+        display: none;
+    }
+    .secao{
+        background-color: #167CBF;
+    }
+}

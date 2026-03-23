@@ -5,9 +5,9 @@ import Botao from "../Botao/Botao.jsx";
 
 export default function Login1() {
     return (
-        <div className="container-fluid">
+        <div className={"container-fluid" + css.secao}>
             <div className="row">
-                <div className={"col-7 " + css.padding}>
+                <div className={"col-md-7 " + css.padding}>
                     <Titulo titulo={'Bem vindo de volta!'} cor={'azul-claro'}/>
                     <div className={"d-flex flex-column align-items-start justify-content-center gap-5"}>
                         <form className={"d-flex flex-column align-items-center justify-content-center gap-4"}>

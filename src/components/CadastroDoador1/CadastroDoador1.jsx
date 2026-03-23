@@ -6,10 +6,11 @@ import Botao from "../Botao/Botao.jsx";
 
 export default function CadastroDoador1() {
     return (
-        <section>
+        <section >
             <div className={css.organizar}>
                 <Titulo titulo={'Venha fazer parte da mudança!'} cor={'rosa'} />
-                <BotaoAlternar/>
+
+                <BotaoAlternar ong={false}/>
             </div>
             <div className={css.formulario}>
                 <div className={css.campos}>
@@ -20,7 +21,7 @@ export default function CadastroDoador1() {
                 </div>
                 <div className={css.campos}>
                     <Input label={'Senha'} type={'password'} placeholder={'Digite seu senha'} required={true}/>
-                    <Input label={'Confirmar senha'} type={'password'} placeholder={'Confirme sua senha'} required={true}/>
+                    <Input label={'Confirmar senha'} type={'text'} placeholder={'Confirme sua senha'} required={true}/>
                     <Input label={'Foto de perfil'} type={'file'}  required={true}/>
                 </div>
                 <Botao texto={'Cadastre-se'} cor={'rosa'}/>

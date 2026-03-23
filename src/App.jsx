@@ -5,6 +5,7 @@ import CadastroOng from "./pages/CadastroOng.jsx";
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import CadastroDoador from "./pages/CadastroDoador.jsx";
+import CadastroAdm from "./pages/CadastroAdm.jsx";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
             <Route path="/login" element={<Login/>} />
             <Route path="/cadastroOng" element={<CadastroOng/>} />
             <Route path="/cadastroDoador" element={<CadastroDoador/>} />
+            <Route path="/cadastroAdm" element={<CadastroAdm/>} />
         </Routes>
           <Footer/>
       </BrowserRouter>

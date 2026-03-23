@@ -19,3 +19,44 @@
     font-size: 3rem;
     margin-bottom: 4rem;
 }
+
+
+@media (max-width: 321px) {
+    .azul-claro, .laranja, .rosa {
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        text-align: start;
+    }
+}
+
+@media (max-width: 376px) {
+    .azul-claro, .laranja, .rosa {
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        text-align: start;
+    }
+}
+
+@media (max-width: 426px) {
+    .azul-claro, .laranja, .rosa {
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        text-align: start;
+    }
+}
+@media (max-width: 769px) {
+    .azul-claro, .laranja, .rosa {
+        color: #ffffff;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        text-align: start;
+
+    }
+}

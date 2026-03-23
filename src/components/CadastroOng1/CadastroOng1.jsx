@@ -11,7 +11,7 @@ export default function CadastroOng1() {
         <section>
             <div className={css.cadastroOng1}>
                 <Titulo titulo={'Venha fazer parte da mudança!'} cor={'laranja'}/>
-                <BotaoAlternar/>
+                <BotaoAlternar ong={true} />
             </div>
             <div className={css.formulario}>
                 <div className={css.campos}>

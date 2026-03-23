@@ -11,7 +11,7 @@ export default function Input({tamanho = 'inputBig', label, type, placeholder, r
 
 
     return (
-        <div className={"d-flex flex-column col-6 gap-2"}>
+        <div className={"d-flex flex-column col-md-6 gap-2"}>
             <label>{label}</label>
             <input className={css[tamanho]} type={type} onChange={alterarInput} value={input} required={required}
                    placeholder={placeholder}/>

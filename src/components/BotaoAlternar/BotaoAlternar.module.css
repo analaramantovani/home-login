@@ -5,6 +5,9 @@
     display: inline-flex;
     padding: 4px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-: 4px;
 }
 
 .btnong {
