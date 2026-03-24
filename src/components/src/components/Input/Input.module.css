@@ -1,0 +1,67 @@
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.normal {
+    border-radius: 0.8rem;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.Big {
+    border-radius: 0.8rem;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    height: 8rem;
+    text-align: start;
+    resize: vertical;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.normal:focus, .Big:focus {
+    outline: none;
+    border-color: #F69B2F;
+    box-shadow: 0 0 0 2px rgba(246, 155, 47, 0.2);
+}
+
+
+@media (max-width: 480px) {
+    .label {
+        font-size: 0.9rem;
+        color: white;
+        margin-bottom: 0.3rem;
+    }
+
+    .normal, .Big {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .Big {
+        height: 6rem;
+    }
+
+    .normal::placeholder, .Big::placeholder {
+        color: #999;
+    }
+}

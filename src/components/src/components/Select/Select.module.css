@@ -1,0 +1,48 @@
+.selectGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.select1 {
+    border-radius: 0.8rem;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.select1:focus {
+    outline: none;
+    border-color: #F69B2F;
+    box-shadow: 0 0 0 2px rgba(246, 155, 47, 0.2);
+}
+
+.titulo {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 0.9rem;
+        color: white;
+        margin-bottom: 0.3rem;
+    }
+
+    .select1 {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+        background-color: white;
+    }
+}
