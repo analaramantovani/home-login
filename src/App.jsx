@@ -6,6 +6,8 @@ import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import CadastroDoador from "./pages/CadastroDoador.jsx";
 import CadastroAdm from "./pages/CadastroAdm.jsx";
+import ConfirmarEmail from "./pages/ConfirmarEmail.jsx";
+import RecuperarSenha from "./pages/RecuperarSenha.jsx";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
             <Route path="/cadastroOng" element={<CadastroOng/>} />
             <Route path="/cadastroDoador" element={<CadastroDoador/>} />
             <Route path="/cadastroAdm" element={<CadastroAdm/>} />
+            <Route path="/confirmarEmail" element={<ConfirmarEmail/>} />
+            <Route path="/recuperarSenha" element={<RecuperarSenha/>} />
         </Routes>
           <Footer/>
       </BrowserRouter>

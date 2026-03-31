@@ -37,10 +37,29 @@
     justify-content: center;
 }
 
-@media(max-width:321px){
-    .titulo{
-        margin-left: 0.5rem;
+@media (max-width: 769px) {
+    .centralizar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .titulo{
+        margin-left: 0rem;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .botao {
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:321px){
+
     .botao{
         margin-top: 3rem;
         margin-bottom: 2rem;
