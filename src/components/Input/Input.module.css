@@ -1,62 +1,85 @@
-label {
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.label {
     font-size: 1rem;
     font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
-input {
-    border-radius: 0.5rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: #AEAEAE;
-    width: 30rem;
-    padding: 0.4rem 0.6rem;
+.normal {
+    border-radius: 0.8rem;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    padding: 0.8rem 1rem;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    background-color: white;
+    box-sizing: border-box;
 }
 
-input.Big{
-    border-radius: 0.5rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: #AEAEAE;
-    width: 30rem;
-    padding: 0.4rem 0.6rem;
+.Big {
+    border-radius: 0.8rem;
+    border: 1px solid #CCCCCC;
+    width: 100%;
     font-size: 1rem;
-    margin-bottom: 1rem;
-    height: 8rem;
-    text-align: start;
-}
-
-placeholder{
-    color: #f6f6f6;
+    height: 9.4rem;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0.2rem 1rem;
 }
 
 
 
-@media (max-width: 769px) {
-    input {
-        border-color: white;
-        width: 40rem;
-        margin-left: 4rem;
-        background-color: white;
-    }
-
-    label {
-        color: white;
-        margin-left: 4rem;
-    }
-}
 
 @media (max-width: 426px) {
-    input {
-        border-color: white;
-        width: 90%;
-        margin-left: 5%;
-        background-color: white;
+    .label {
+        font-size: 0.9rem;
+        color: white;
+        margin-bottom: 0.3rem;
     }
 
-    label {
-        color: white;
-        margin-left: 5%;
+    .normal, .Big {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+        width: 24rem;
+    }
+
+    .Big {
+        height: 6rem;
+    }
+
+    .normal::placeholder, .Big::placeholder {
+        color: #999;
+    }
+}
+
+@media (max-width: 376px) {
+    .normal, .Big{
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+        width: 21rem;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .normal, .Big{
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 1rem;
+        margin-bottom: 0.8rem;
+        width: 18rem;
     }
 }

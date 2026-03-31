@@ -5,7 +5,7 @@ export default function Chamada() {
         <section className={css.espacamento}>
             <div className="container-fluid">
                 <div className="row d-flex justify-content-between">
-                    <div className={"col-6 d-flex justify-content-center align-items-start flex-column " + css.rosaClaro}>
+                    <div className={"col-md-6 col-12 d-flex justify-content-center align-items-start flex-column " + css.rosaClaro}>
                         <h4 className={css.tituloh4}>Junte-se a nós!</h4>
                         <p className={css.paragrafo}>
                             Cadastre sua ONG para receber doações ou se cadastre para contribuir com projetos de todo Brasil!

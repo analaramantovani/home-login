@@ -1,62 +1,40 @@
-
 .azul-claro {
     color: #167CBF;
     font-weight: 800;
-    font-size: 3rem;
-    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-.laranja{
+.laranja {
     color: #F69B2F;
     font-weight: 800;
-    font-size: 3rem;
-    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-.rosa{
+.rosa {
     color: #F77CA8;
     font-weight: 800;
-    font-size: 3rem;
-    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
-
-@media (max-width: 321px) {
+@media (max-width: 768px) {
     .azul-claro, .laranja, .rosa {
-        color: #ffffff;
-        font-size: 2.5rem;
-        margin-left: 2rem;
-        margin-top: 1rem;
-        text-align: start;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
     }
 }
 
-@media (max-width: 376px) {
-    .azul-claro, .laranja, .rosa {
-        color: #ffffff;
-        font-size: 2.5rem;
-        margin-left: 2rem;
-        margin-top: 1rem;
-        text-align: start;
-    }
-}
 
-@media (max-width: 426px) {
+@media (max-width: 480px) {
     .azul-claro, .laranja, .rosa {
-        color: #ffffff;
-        font-size: 2.5rem;
-        margin-left: 2rem;
-        margin-top: 1rem;
-        text-align: start;
-    }
-}
-@media (max-width: 769px) {
-    .azul-claro, .laranja, .rosa {
-        color: #ffffff;
-        font-size: 2.5rem;
-        margin-left: 2rem;
-        margin-top: 1rem;
-        text-align: start;
-
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        color: white;
     }
 }

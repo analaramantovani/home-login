@@ -45,11 +45,23 @@
     font-size: 1rem;
 }
 
-@media(max-width:321px){
-    .rosaEscuro{
+@media (max-width:769px) {
+
+    .rosaMedio{
         display: none;
     }
-    .imagem{
-        display: block;
+
+    .rosaEscuro {
+        display: none;
+
     }
+
+    .rosaClaro {
+        border-radius: 0;
+    }
+
+    .espacamento {
+        margin: 0;
+    }
+
 }

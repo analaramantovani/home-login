@@ -1,22 +1,33 @@
 import css from './Input.module.css'
 import { useState } from 'react'
 
-
-export default function Input({tamanho = 'inputBig', label, type, placeholder, required = false}) {
+export default function Input({tamanho = 'normal', label, type, placeholder, required = false, maxLength, minLength, soNumeros = false}) {
     const [input, setInput] = useState('')
 
     function alterarInput(e) {
-        setInput(e.currentTarget.value)
+        let valor = e.currentTarget.value
+
+        if (soNumeros) {
+            valor = valor.replace(/\D/g, '')
+        }
+
+        setInput(valor)
     }
 
-
     return (
-        <div className={"d-flex flex-column col-md-6 gap-2"}>
-            <label>{label}</label>
-            <input className={css[tamanho]} type={type} onChange={alterarInput} value={input} required={required}
-                   placeholder={placeholder}/>
+        <div className={css.inputGroup}>
+            <label className={css.label}>{label}</label>
+            <input
+                className={css[tamanho]}
+                type={type}
+                onChange={alterarInput}
+                value={input}
+                required={required}
+                placeholder={placeholder}
+                maxLength={maxLength}
+                minLength={minLength}
+                inputMode={soNumeros ? 'numeric' : undefined}
+            />
         </div>
-
-
     )
 }

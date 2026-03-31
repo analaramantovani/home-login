@@ -9,7 +9,7 @@ export default function Select({options = [], label, required = false }) {
     }
 
     return (
-        <>
+        <div className={css.selectGroup}>
             <label className={css.titulo}>{label}</label>
             <select className={css.select1} onChange={alterar} value={valor} required={required}>
                 {options.map((opt, i) => (
@@ -18,6 +18,6 @@ export default function Select({options = [], label, required = false }) {
                     </option>
                 ))}
             </select>
-        </>
+        </div>
     )
 }
